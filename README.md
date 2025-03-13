@@ -1,10 +1,46 @@
-👋 Hi, I’m S.K.Mruduvani
-👀 I’m interested in analyzing data and deriving insights from raw data
-- 🌱 I’m currently learning about Computer Data science and Data Analytics
-- 💞️ I’m looking to collaborate on Data science and machine learning projects 
-- 📫 How to reach me ... suravarapumruduvani@gmail.com
+# 🚗 Car Price Prediction
 
-<!---
-Mrudu17/Mrudu17 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## 📝 Project Description
+
+The project works on the previous sales data of Audi car prices to predict the prices of the car in upcoming sales. The goal of this project is to predict the price of a car based on various features such as:
+
+- 🚙 **Car brand**
+- 🚗 **Car model**
+- 📅 **Year of manufacture**
+- 🛣️ **Mileage**
+- ⛽ **Fuel type**
+- 🏎️ **Engine capacity**
+- 🛠️ **Other car attributes**
+
+---
+
+## 📊 Models Used
+
+The project compares different machine learning models to evaluate which one performs best for car price prediction:
+
+- **Linear Regression**: A basic regression model that assumes a linear relationship between features and the target. 🔄
+- **Decision Trees**: A model that makes decisions based on the features by splitting the dataset into smaller subsets. 🌳
+- **Random Forest**: An ensemble method that combines multiple decision trees to increase accuracy. 🌲🌲🌲
+- **Support Vector Machines (SVM)**: A model that uses a hyperplane to separate classes in higher-dimensional space (also applicable for regression). ⚙️
+
+---
+
+## ⚙️ Setup Instructions
+
+To start working with the project, first install the required libraries from the `requirements.txt` file.
+
+```bash
+pip install -r requirements.txt
+
+Car-Price-Prediction/
+│
+├── data/                  # Folder containing the dataset
+│   └── car_prices.csv     # CSV file containing car data
+│
+├── notebooks/             # Folder containing Jupyter Notebooks
+│   └── car_price_prediction.ipynb  # Main notebook for model training and evaluation
+│
+├── requirements.txt       # File listing required dependencies
+├── LICENSE                # License file (optional)
+└── README.md              # This README file
+
