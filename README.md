@@ -35,7 +35,7 @@ pip install -r requirements.txt
 Car-Price-Prediction/
 │
 ├── data/                  # Folder containing the dataset
-│   └── car_prices.csv     # CSV file containing car data
+│   └── audi.csv     # CSV file containing car data
 │
 ├── notebooks/             # Folder containing Jupyter Notebooks
 │   └── car_price_prediction.ipynb  # Main notebook for model training and evaluation
