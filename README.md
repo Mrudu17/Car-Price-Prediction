@@ -43,4 +43,17 @@ Car-Price-Prediction/
 ├── requirements.txt       # File listing required dependencies
 ├── LICENSE                # License file (optional)
 └── README.md              # This README file
+```
+---
+Else Clone the Repository!!!
 
+```bash
+git clone https://github.com/Mrudu17/Car-Price-Prediction.git
+cd Car-Price-Prediction
+```
+---
+---
+
+🚀 **Happy Coding!** If you have any questions or suggestions, feel free to open an issue or submit a pull request. Let's make car price prediction smarter together! 💡🔧
+
+---
